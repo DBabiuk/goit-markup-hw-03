@@ -18,41 +18,36 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <div class="header-logo">
-          <a class="logo" href=""
-            ><span class="logo-web">Web</span
-            ><span class="logo-studio">Studio</span></a
-          >
-        </div>
-        <div class="container-navigation">
-          <nav class="navigation-header">
-            <ul>
-              <li class="studio"><a href="index.html">Студия</a></li>
-              <li class="portfolio active-link">
-                <a href="portfolio.html">Портфолио</a>
-              </li>
-              <li class="contacts"><a href="#Contacts">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="container-contacts-header">
-          <ul class="contacts-header">
-            <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+    <header>
+      <div class="container container-header header">
+        <a class="logo" href=""
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
+        <nav class="navigation-header">
+          <ul>
+            <li class="studio">
+              <a href="index.html">Студия</a>
             </li>
-            <li>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
+            <li class="portfolio active-link"><a href="portfolio.html">Портфолио</a></li>
+            <li class="contacts"><a href="#Contacts">Контакты</a></li>
           </ul>
-        </div>
-      </header>
+        </nav>
+        <ul class="contacts-header">
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
       <main>
         <section class="section" id="buttons">
-          <div class="buttons-portfolio-wrapper">
-            <h1></h1>
-            <ul class="buttons">
+          <div class="container">
+            <h1 class="portfolio-headline"></h1>
+            <ul class="buttons buttons-portfolio-wrapper">
               <li>
                 <button class="first-button" type="button">Все</button>
               </li>
@@ -69,20 +64,15 @@
                 <button class="fifth-button" type="button">Маркетинг</button>
               </li>
             </ul>
-          </div>
-          <div class="projects-wrapper">
-            <ul>
-              <li>
-                <div class="portfolio portfolio1">
-                  <img src="images/img-7.jpg" alt="Технокряк" width="370" />
+            <ul class="projects-wrapper">
+              <li class="portfolio portfolio1">
+                  <img src="images/img-7.jpg" alt="Технокряк" width="370"/>
                   <div class="portfolio-content">
                     <h2 class="project-name">Технокряк</h2>
                     <p class="project-type">Веб-сайт</p>
                   </div>
-                </div>
               </li>
-              <li>
-                <div class="portfolio portfolio2">
+              <li class="portfolio portfolio2">
                   <img
                     src="images/img-8.jpg"
                     alt="Постер New Orlean vs Golden Star"
@@ -93,11 +83,9 @@
                       Постер New Orlean vs Golden Star
                     </h2>
                     <p class="project-type">Дизайн</p>
-                  </div>
                 </div>
               </li>
-              <li>
-                <div class="portfolio portfolio3">
+              <li class="portfolio portfolio3">
                   <img
                     src="images/img-9.jpg"
                     alt="Ресторан Seafood"
@@ -107,28 +95,22 @@
                     <h2 class="project-name">Ресторан Seafood</h2>
                     <p class="project-type">Приложение</p>
                   </div>
-                </div>
               </li>
-              <li>
-                <div class="portfolio portfolio4">
+              <li class="portfolio portfolio4">
                   <img src="images/img-10.jpg" alt="Проект Prime" width="370" />
                   <div class="portfolio-content">
                     <h2 class="project-name">Проект Prime</h2>
                     <p class="project-type">Маркетинг</p>
                   </div>
-                </div>
               </li>
-              <li>
-                <div class="portfolio portfolio5">
+              <li class="portfolio portfolio5">
                   <img src="images/img-11.jpg" alt="Проект Boxes" width="370" />
                   <div class="portfolio-content">
                     <h2 class="project-name">Проект Boxes</h2>
                     <p class="project-type">Приложение</p>
                   </div>
-                </div>
               </li>
-              <li>
-                <div class="portfolio portfolio6">
+              <li class="portfolio portfolio6">
                   <img
                     src="images/img-12.jpg"
                     alt="Inspiration has no Borders"
@@ -138,10 +120,8 @@
                     <h2 class="project-name">Inspiration has no Borders</h2>
                     <p class="project-type">Веб-сайт</p>
                   </div>
-                </div>
               </li>
-              <li>
-                <div class="portfolio portfolio7">
+              <li class="portfolio portfolio7">
                   <img
                     src="images/img-13.jpg"
                     alt="Издание Limited Edition"
@@ -151,19 +131,15 @@
                     <h2 class="project-name">Издание Limited Edition</h2>
                     <p class="project-type">Дизайн</p>
                   </div>
-                </div>
               </li>
-              <li>
-                <div class="portfolio portfolio8">
+              <li class="portfolio portfolio8">
                   <img src="images/img-14.jpg" alt="Проект LAB" width="370" />
                   <div class="portfolio-content">
                     <h2 class="project-name">Проект LAB</h2>
                     <p class="project-type">Маркетинг</p>
                   </div>
-                </div>
               </li>
-              <li>
-                <div class="portfolio portfolio9">
+              <li class="portfolio portfolio9">
                   <img
                     src="images/img-15.jpg"
                     alt="Growing Business"
@@ -173,14 +149,13 @@
                     <h2 class="project-name">Growing Business</h2>
                     <p class="project-type">Приложение</p>
                   </div>
-                </div>
               </li>
             </ul>
           </div>
         </section>
       </main>
       <footer>
-        <div class="footer-wrapper">
+        <div class="container">
           <a class="logo logo-footer" href=""
             ><span class="logo-web-footer">Web</span
             ><span class="logo-studio-footer">Studio</span></a
