@@ -245,7 +245,7 @@ footer {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-text-align: center;
+/* text-align: center; */
 }
 .section-hero{
   background-color: var(--background-black);
@@ -304,9 +304,9 @@ margin-right: 0px;
 .footer-contacts-wrapper li {
   margin-top: 9px;
 }
-/* .footer-contacts-wrapper li:first-child {
-  margin-top: 20px;
-} */
+.footer-contacts-wrapper li:first-child {
+  margin-top: 0px;
+}
 address{
   margin-top: 20px;
 }
@@ -426,7 +426,11 @@ margin-right: 50px;
 .portfolio,
 .contacts
   {
-  display: block;
+  /* display: block;
+  padding-top: 32px;
+  padding-bottom: 32px; */
+}
+.studio-ul{
   padding-top: 32px;
   padding-bottom: 32px;
 }
