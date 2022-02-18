@@ -25,28 +25,32 @@
             ><span class="logo-studio">Studio</span></a
           >
           <nav class="navigation-header">
-            <ul>
+            <ul class="studio-ul">
               <li class="studio active-link">
                 <a href="index.html">Студия</a>
               </li>
-              <li class="portfolio"><a href="portfolio.html">Портфолио</a></li>
+              <li class="portfolio-index"><a href="portfolio.html">Портфолио</a></li>
               <li class="contacts"><a href="#Contacts">Контакты</a></li>
             </ul>
           </nav>
           <ul class="contacts-header">
-            <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="header-icons mail">
+              <a href="mailto:info@devstudio.com"><svg class="mail-icon" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-mail" ></use>
+    </svg><span>info@devstudio.com</span></a>
             </li>
-            <li>
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="header-icons phone">
+              <a href="tel:+380961111111"> <svg class="phone-icon" width="16px" height="12px" >
+                <use href="./images/icons.svg#icon-phone"></use>
+    </svg><span>+38 096 111 11 11</span></a>
             </li>
           </ul>
         </div>
       </header>
       <main>
-        <section class="section" id="hero">
+        <section class="section-hero">
           <div class="container">
-            <h1 class="solutions" id="Studio">
+            <h1 class="solutions">
               Эффективные решения для вашего бизнеса
             </h1>
             <button class="button-index" type="button">Заказать услугу</button>
@@ -58,6 +62,11 @@
           <div class="container">
             <ul class="about-wrapper">
               <li>
+                <div class="icons-about">
+                  <svg class="icon-about satelite-icon" width="65px" height="70px">
+                    <use href="./images/icons.svg#icon-antenna" ></use>
+        </svg>
+                </div>
                 <h3 class="about">Внимание к деталям</h3>
                 <p class="about-text">
                   Идейные соображения, а также начало повседневной работы по
@@ -65,6 +74,11 @@
                 </p>
               </li>
               <li>
+                <div class="icons-about">
+                  <svg class="icon-about clock-icon" width="65px" height="70px">
+                    <use href="./images/icons.svg#icon-clock" ></use>
+        </svg>
+                </div>
                 <h3 class="about">Пунктуальность</h3>
                 <p class="about-text">
                   Задача организации, в особенности же рамки и место обучения
@@ -72,6 +86,11 @@
                 </p>
               </li>
               <li>
+                <div class="icons-about">
+                  <svg class="icon-about diagram-icon" width="65px" height="70px">
+                    <use href="./images/icons.svg#icon-diagram" ></use>
+        </svg>
+                </div>
                 <h3 class="about">Планирование</h3>
                 <p class="about-text">
                   Равным образом консультация с широким активом в значительной
@@ -79,6 +98,11 @@
                 </p>
               </li>
               <li>
+                <div class="icons-about">
+                  <svg class="icon-about astronaut-icon" width="65px" height="70px">
+                    <use href="./images/icons.svg#icon-astronaut" ></use>
+        </svg>
+                </div>
                 <h3 class="about">Современные технологии</h3>
                 <p class="about-text">
                   Значимость этих проблем настолько очевидна, что реализация
@@ -89,7 +113,7 @@
           </div>
           </div>
         </section>
-        <section class="section">
+        <section class="section-what-are-we-doing">
           <div class="container">
             <h2 class="what-are-we-doing" id="Portfolio">Чем мы занимаемся</h2>
             <ul class="what-are-we-doing-wrapper">
@@ -135,6 +159,36 @@
                     <div class="worker-card-content">
                       <h3 class="worker">Игорь Демьяненко</h3>
                       <p class="worker-position">Product designer</p>
+                        <ul class="worker-icons">
+                          <li>
+                            <a  class="worker-icons-background" href="">
+                          <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                          </svg>
+                        </a>
+                        </li>
+                        <li>
+                          <a class="worker-icons-background" href="">
+                          <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                          </svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="worker-icons-background" href="">
+                          <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                          </svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="worker-icons-background"  href="">
+                          <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                          </svg>
+                          </a>
+                        </li>
+                        </ul>
                     </div>
                 </li>
                 <li class="worker-card" >
@@ -147,6 +201,36 @@
                     <div class="worker-card-content">
                       <h3 class="worker">Ольга Репина</h3>
                       <p class="worker-position">Frontend Developer</p>
+                      <ul class="worker-icons">
+                        <li>
+                          <a  class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background"  href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      </ul>
                     </div>
                 </li>
                 <li class="worker-card">
@@ -159,6 +243,36 @@
                     <div class="worker-card-content">
                       <h3 class="worker">Николай Тарасов</h3>
                       <p class="worker-position">Marketing</p>
+                      <ul class="worker-icons">
+                        <li>
+                          <a  class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background"  href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      </ul>
                     </div>
                 </li>
                 <li class="worker-card">
@@ -171,22 +285,109 @@
                     <div class="worker-card-content">
                       <h3 class="worker">Михаил Ермаков</h3>
                       <p class="worker-position">UI Designer</p>
+                      <ul class="worker-icons">
+                        <li>
+                          <a  class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background" href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="worker-icons-background"  href="">
+                        <svg width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                        </a>
+                      </li>
+                      </ul>
                     </div>
                 </li>
               </ul>
           </div>
           </div>
         </section>
+        <section class="section">
+          <div class="container clients">
+            <h2>Постоянные клиенты</h2>
+            <ul class="clients-cards">
+              <li class="client-wrapper">
+                <a href="">
+                  <svg width="106" height="60"  >
+                    <use href="./images/icons.svg#icon-Logo1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="client-wrapper">
+                <a href="">
+                  <svg width="106" height="60"  >
+                    <use href="./images/icons.svg#icon-Logo2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="client-wrapper">
+                
+                <a href="">
+                  <svg width="106" height="60"  >
+                    <use href="./images/icons.svg#icon-Logo3"></use>
+                  </svg>
+                </a>
+             
+              </li>
+              <li class="client-wrapper">
+               
+                <a href="">
+                  <svg width="106" height="60"  >
+                    <use href="./images/icons.svg#icon-Logo4"></use>
+                  </svg>
+                </a>
+             
+              </li>
+              <li class="client-wrapper">
+                
+                <a href="">
+                  <svg width="106" height="60"  >
+                    <use href="./images/icons.svg#icon-Logo5"></use>
+                  </svg>
+                </a>
+              
+              </li>
+              <li class="client-wrapper">
+                
+                <a href="">
+                  <svg width="106" height="60"  >
+                    <use href="./images/icons.svg#icon-Logo6"></use>
+                  </svg>
+                </a>
+              
+              </li>
+            </ul>
+          </div>
+        </section>
       </main>
       <footer>
-        <div class="container">
+        <div class="container container-footer">
+         <div>
           <a class="logo logo-footer" href=""
             ><span class="logo-web-footer">Web</span
             ><span class="logo-studio-footer">Studio</span></a
           >
           <address id="Contacts">
-            <div class="footer-contacts-wrapper">
-              <ul class="navigation-footer">
+              <ul class="footer-contacts-wrapper navigation-footer">
                 <li>
                   <a class="location" id="location" href=""
                     >Г.Киев, пр-т Леси Украинки, 26</a
@@ -203,8 +404,41 @@
                   >
                 </li>
               </ul>
-            </div>
           </address>
+        </div>
+          <div class="footer-icons" >
+            <h3 class="footer-title">присоединяйтесь</h3>
+            <ul class="footer-icons-container">
+              <li>
+                <a class="footer-svg-container" href="">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            </li>
+            <li>
+              <a class="footer-svg-container" href="">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-svg-container" href="">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-svg-container" href="">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+              </a>
+            </li>
+            </ul>
+          </div>
         </div>
         </div>
       </footer>

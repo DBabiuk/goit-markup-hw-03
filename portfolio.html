@@ -25,20 +25,30 @@
           ><span class="logo-studio">Studio</span></a
         >
         <nav class="navigation-header">
-          <ul>
+          <ul class="studio-ul">
             <li class="studio">
               <a href="index.html">Студия</a>
             </li>
-            <li class="portfolio active-link"><a href="portfolio.html">Портфолио</a></li>
+            <li class="portfolio-index active-link"><a href="portfolio.html">Портфолио</a></li>
             <li class="contacts"><a href="#Contacts">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contacts-header">
           <li>
+            <div class="header-icons mail" >
+            <svg class="mail-icon" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-mail" ></use>
+  </svg>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </div>
           </li>
           <li>
+            <div class="header-icons phone">
+            <svg class="phone-icon" width="16px" height="12px" >
+              <use href="./images/icons.svg#icon-phone"></use>
+  </svg>
             <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </div>
           </li>
         </ul>
       </div>
@@ -156,14 +166,14 @@
         </section>
       </main>
       <footer>
-        <div class="container">
+        <div class="container container-footer">
+         <div>
           <a class="logo logo-footer" href=""
             ><span class="logo-web-footer">Web</span
             ><span class="logo-studio-footer">Studio</span></a
           >
           <address id="Contacts">
-            <div class="footer-contacts-wrapper">
-              <ul class="navigation-footer">
+              <ul class="footer-contacts-wrapper navigation-footer">
                 <li>
                   <a class="location" id="location" href=""
                     >Г.Киев, пр-т Леси Украинки, 26</a
@@ -180,8 +190,41 @@
                   >
                 </li>
               </ul>
-            </div>
           </address>
+        </div>
+          <div class="footer-icons" >
+            <h3 class="footer-title">присоединяйтесь</h3>
+            <ul class="footer-icons-container">
+              <li>
+                <a class="footer-svg-container" href="">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            </li>
+            <li>
+              <a class="footer-svg-container" href="">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-svg-container" href="">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-svg-container" href="">
+              <svg width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+              </a>
+            </li>
+            </ul>
+          </div>
         </div>
         </div>
       </footer>
